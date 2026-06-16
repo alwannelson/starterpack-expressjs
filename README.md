@@ -61,7 +61,7 @@ Clone repository:
 git clone https://github.com/alwannelson/starterpack-expressjs.git
 ```
 
-Masuk ke folder project:
+Go to your project folder:
 
 ```bash
 cd starterpack-expressjs
