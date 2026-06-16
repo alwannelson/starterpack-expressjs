@@ -64,7 +64,7 @@ git clone https://github.com/alwannelson/starterpack-expressjs.git
 Masuk ke folder project:
 
 ```bash
-cd project-name
+cd starterpack-expressjs
 ```
 
 Install dependencies:
