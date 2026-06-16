@@ -5,7 +5,13 @@ const router = require('./src/routes/router')
 const cookieParser = require('cookie-parser')
 const session = require('express-session')
 const path = require('path')
+const cors = require('cors')
+const boolCheck = require('./src/utils/bool-check')
 
+app.use(cors({
+    origin: process.env.CORS_ORIGIN,
+    credentials: boolCheck(process.env.CORS_CREDENTIALS)
+}))
 app.use(cookieParser())
 app.use(session({
     secret: process.env.SECRET_KEY,
